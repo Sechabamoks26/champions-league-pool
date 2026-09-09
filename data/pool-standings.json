@@ -1,0 +1,686 @@
+{
+  "season": "2026/27",
+  "competition": "UEFA Champions League",
+  "computedAt": "2026-09-09T06:26:15.321Z",
+  "scoring": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "participants": [
+    {
+      "participant": "Dofa",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Real Madrid",
+          "country": "ESP"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Club Brugge",
+          "country": "BEL"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Lille",
+          "country": "FRA"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Viking",
+          "country": "NOR"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Real Madrid": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Club Brugge": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Lille": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Viking": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 1
+    },
+    {
+      "participant": "Latita",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Paris Saint-Germain",
+          "country": "FRA"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Aston Villa",
+          "country": "ENG"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Bodø/Glimt",
+          "country": "NOR"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Lens",
+          "country": "FRA"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Paris Saint-Germain": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Aston Villa": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Bodø/Glimt": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Lens": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 2
+    },
+    {
+      "participant": "Phillip",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Manchester City",
+          "country": "ENG"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Roma",
+          "country": "ITA"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Villarreal",
+          "country": "ESP"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Slovan Bratislava",
+          "country": "SVK"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Manchester City": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Roma": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Villarreal": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Slovan Bratislava": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 3
+    },
+    {
+      "participant": "Lwandle",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Barcelona",
+          "country": "ESP"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "PSV Eindhoven",
+          "country": "NED"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Fenerbahce",
+          "country": "TUR"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "LASK",
+          "country": "AUT"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Barcelona": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "PSV Eindhoven": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Fenerbahce": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "LASK": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 4
+    },
+    {
+      "participant": "Sechaba",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Liverpool",
+          "country": "ENG"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Porto",
+          "country": "POR"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Shakhtar Donetsk",
+          "country": "UKR"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Sabah",
+          "country": "AZE"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Liverpool": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Porto": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Shakhtar Donetsk": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Sabah": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 5
+    },
+    {
+      "participant": "Thato",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Arsenal",
+          "country": "ENG"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Sporting CP",
+          "country": "POR"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "RB Leipzig",
+          "country": "GER"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Como",
+          "country": "ITA"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Arsenal": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Sporting CP": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "RB Leipzig": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Como": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 6
+    },
+    {
+      "participant": "Kekesto",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Inter Milan",
+          "country": "ITA"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Borussia Dortmund",
+          "country": "GER"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Feyenoord",
+          "country": "NED"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Slavia Praha",
+          "country": "CZE"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Inter Milan": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Borussia Dortmund": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Feyenoord": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Slavia Praha": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 7
+    },
+    {
+      "participant": "Sandile",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Bayern Munich",
+          "country": "GER"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Real Betis",
+          "country": "ESP"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Galatasaray",
+          "country": "TUR"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "VfB Stuttgart",
+          "country": "GER"
+        }
+      ],
+      "totalPoints": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "teamStats": {
+        "Bayern Munich": {
+          "pot": 1,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Real Betis": {
+          "pot": 2,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "Galatasaray": {
+          "pot": 3,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        },
+        "VfB Stuttgart": {
+          "pot": 4,
+          "points": 0,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "matches": []
+        }
+      },
+      "matchdayPoints": {},
+      "rank": 8
+    }
+  ],
+  "matchdaySummaries": [],
+  "totalMatchesFinished": 0
+}

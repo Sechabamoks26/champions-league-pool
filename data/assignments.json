@@ -1,7 +1,7 @@
 {
-  "season": "2025/26",
+  "season": "2026/27",
   "competition": "UEFA Champions League",
-  "generatedAt": "2026-09-09T06:16:01.796Z",
+  "generatedAt": "2026-09-09T06:21:53.321Z",
   "participants": [
     {
       "participant": "Dofa",
@@ -9,176 +9,31 @@
         {
           "pot": 1,
           "potName": "Pot 1",
-          "name": "Chelsea",
-          "country": "ENG"
-        },
-        {
-          "pot": 2,
-          "potName": "Pot 2",
-          "name": "Juventus",
-          "country": "ITA"
-        },
-        {
-          "pot": 3,
-          "potName": "Pot 3",
-          "name": "Napoli",
-          "country": "ITA"
-        },
-        {
-          "pot": 4,
-          "potName": "Pot 4",
-          "name": "Qarabag",
-          "country": "AZE"
-        }
-      ]
-    },
-    {
-      "participant": "Latita",
-      "teams": [
-        {
-          "pot": 1,
-          "potName": "Pot 1",
-          "name": "Inter Milan",
-          "country": "ITA"
-        },
-        {
-          "pot": 2,
-          "potName": "Pot 2",
-          "name": "Bayer Leverkusen",
-          "country": "GER"
-        },
-        {
-          "pot": 3,
-          "potName": "Pot 3",
-          "name": "Bodø/Glimt",
-          "country": "NOR"
-        },
-        {
-          "pot": 4,
-          "potName": "Pot 4",
-          "name": "Athletic Club",
+          "name": "Real Madrid",
           "country": "ESP"
-        }
-      ]
-    },
-    {
-      "participant": "Phillip",
-      "teams": [
-        {
-          "pot": 1,
-          "potName": "Pot 1",
-          "name": "Borussia Dortmund",
-          "country": "GER"
         },
         {
           "pot": 2,
           "potName": "Pot 2",
-          "name": "Arsenal",
-          "country": "ENG"
+          "name": "Club Brugge",
+          "country": "BEL"
         },
         {
           "pot": 3,
           "potName": "Pot 3",
-          "name": "Marseille",
+          "name": "Lille",
           "country": "FRA"
         },
         {
           "pot": 4,
           "potName": "Pot 4",
-          "name": "Union SG",
-          "country": "BEL"
+          "name": "Viking",
+          "country": "NOR"
         }
       ]
     },
     {
-      "participant": "Lwandle",
-      "teams": [
-        {
-          "pot": 1,
-          "potName": "Pot 1",
-          "name": "Liverpool",
-          "country": "ENG"
-        },
-        {
-          "pot": 2,
-          "potName": "Pot 2",
-          "name": "Benfica",
-          "country": "POR"
-        },
-        {
-          "pot": 3,
-          "potName": "Pot 3",
-          "name": "Ajax",
-          "country": "NED"
-        },
-        {
-          "pot": 4,
-          "potName": "Pot 4",
-          "name": "Pafos",
-          "country": "CYP"
-        }
-      ]
-    },
-    {
-      "participant": "Sechaba",
-      "teams": [
-        {
-          "pot": 1,
-          "potName": "Pot 1",
-          "name": "Barcelona",
-          "country": "ESP"
-        },
-        {
-          "pot": 2,
-          "potName": "Pot 2",
-          "name": "Villarreal",
-          "country": "ESP"
-        },
-        {
-          "pot": 3,
-          "potName": "Pot 3",
-          "name": "Olympiacos",
-          "country": "GRE"
-        },
-        {
-          "pot": 4,
-          "potName": "Pot 4",
-          "name": "Newcastle",
-          "country": "ENG"
-        }
-      ]
-    },
-    {
-      "participant": "Thato",
-      "teams": [
-        {
-          "pot": 1,
-          "potName": "Pot 1",
-          "name": "Bayern Munich",
-          "country": "GER"
-        },
-        {
-          "pot": 2,
-          "potName": "Pot 2",
-          "name": "Eintracht Frankfurt",
-          "country": "GER"
-        },
-        {
-          "pot": 3,
-          "potName": "Pot 3",
-          "name": "Sporting CP",
-          "country": "POR"
-        },
-        {
-          "pot": 4,
-          "potName": "Pot 4",
-          "name": "Copenhagen",
-          "country": "DEN"
-        }
-      ]
-    },
-    {
-      "participant": "Kekesto",
+      "participant": "Latita",
       "teams": [
         {
           "pot": 1,
@@ -189,25 +44,25 @@
         {
           "pot": 2,
           "potName": "Pot 2",
-          "name": "Atalanta",
-          "country": "ITA"
+          "name": "Aston Villa",
+          "country": "ENG"
         },
         {
           "pot": 3,
           "potName": "Pot 3",
-          "name": "PSV Eindhoven",
-          "country": "NED"
+          "name": "Bodø/Glimt",
+          "country": "NOR"
         },
         {
           "pot": 4,
           "potName": "Pot 4",
-          "name": "Kairat Almaty",
-          "country": "KAZ"
+          "name": "Lens",
+          "country": "FRA"
         }
       ]
     },
     {
-      "participant": "Sandile",
+      "participant": "Phillip",
       "teams": [
         {
           "pot": 1,
@@ -218,20 +73,165 @@
         {
           "pot": 2,
           "potName": "Pot 2",
-          "name": "Atletico Madrid",
+          "name": "Roma",
+          "country": "ITA"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Villarreal",
+          "country": "ESP"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Slovan Bratislava",
+          "country": "SVK"
+        }
+      ]
+    },
+    {
+      "participant": "Lwandle",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Barcelona",
+          "country": "ESP"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "PSV Eindhoven",
+          "country": "NED"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Fenerbahce",
+          "country": "TUR"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "LASK",
+          "country": "AUT"
+        }
+      ]
+    },
+    {
+      "participant": "Sechaba",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Liverpool",
+          "country": "ENG"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Porto",
+          "country": "POR"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Shakhtar Donetsk",
+          "country": "UKR"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Sabah",
+          "country": "AZE"
+        }
+      ]
+    },
+    {
+      "participant": "Thato",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Arsenal",
+          "country": "ENG"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Sporting CP",
+          "country": "POR"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "RB Leipzig",
+          "country": "GER"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Como",
+          "country": "ITA"
+        }
+      ]
+    },
+    {
+      "participant": "Kekesto",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Inter Milan",
+          "country": "ITA"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Borussia Dortmund",
+          "country": "GER"
+        },
+        {
+          "pot": 3,
+          "potName": "Pot 3",
+          "name": "Feyenoord",
+          "country": "NED"
+        },
+        {
+          "pot": 4,
+          "potName": "Pot 4",
+          "name": "Slavia Praha",
+          "country": "CZE"
+        }
+      ]
+    },
+    {
+      "participant": "Sandile",
+      "teams": [
+        {
+          "pot": 1,
+          "potName": "Pot 1",
+          "name": "Bayern Munich",
+          "country": "GER"
+        },
+        {
+          "pot": 2,
+          "potName": "Pot 2",
+          "name": "Real Betis",
           "country": "ESP"
         },
         {
           "pot": 3,
           "potName": "Pot 3",
-          "name": "Slavia Praha",
-          "country": "CZE"
+          "name": "Galatasaray",
+          "country": "TUR"
         },
         {
           "pot": 4,
           "potName": "Pot 4",
-          "name": "Monaco",
-          "country": "FRA"
+          "name": "VfB Stuttgart",
+          "country": "GER"
         }
       ]
     }
@@ -242,7 +242,7 @@
       "potName": "Pot 1",
       "teams": [
         {
-          "name": "Real Madrid",
+          "name": "Atletico Madrid",
           "country": "ESP"
         }
       ]
@@ -252,8 +252,8 @@
       "potName": "Pot 2",
       "teams": [
         {
-          "name": "Club Brugge",
-          "country": "BEL"
+          "name": "Manchester United",
+          "country": "ENG"
         }
       ]
     },
@@ -262,8 +262,8 @@
       "potName": "Pot 3",
       "teams": [
         {
-          "name": "Tottenham",
-          "country": "ENG"
+          "name": "Napoli",
+          "country": "ITA"
         }
       ]
     },
@@ -272,8 +272,8 @@
       "potName": "Pot 4",
       "teams": [
         {
-          "name": "Galatasaray",
-          "country": "TUR"
+          "name": "AEK Athens",
+          "country": "GRE"
         }
       ]
     }

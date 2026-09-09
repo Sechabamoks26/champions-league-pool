@@ -1,10 +1,12 @@
 {
   "name": "champions-league-pool",
-  "version": "1.0.0",
-  "description": "UEFA Champions League pool with randomized team assignments",
+  "version": "2.0.0",
+  "description": "UEFA Champions League pool with auto-updating standings after each matchday",
   "type": "module",
   "scripts": {
-    "assign": "node scripts/assign-teams.mjs"
+    "assign": "node scripts/assign-teams.mjs",
+    "update": "node scripts/update-results.mjs",
+    "serve": "npx serve ."
   },
   "private": true
 }

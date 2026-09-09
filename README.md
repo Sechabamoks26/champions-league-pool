@@ -1,40 +1,78 @@
-# Champions League Pool 2025/26
+# Champions League Pool 2026/27
 
-A simple pool for tracking UEFA Champions League team assignments among friends.
+A live pool website that tracks UEFA Champions League results and updates standings automatically after every matchday.
 
 ## Participants
 
-- Dofa
-- Latita
-- Phillip
-- Lwandle
-- Sechaba
-- Thato
-- Kekesto
-- Sandile
+Dofa · Latita · Phillip · Lwandle · Sechaba · Thato · Kekesto · Sandile
 
-Each participant is randomly assigned **one team from each of the four Champions League pots** (36 teams total across 4 pots).
+Each player is randomly assigned **one team from each of the four Champions League pots** (36 teams total).
 
-## How it works
+## Scoring
 
-1. All 36 Champions League league-phase teams are split into 4 pots (based on the official 2025/26 draw).
-2. For each pot, teams are shuffled and one is assigned to each of the 8 participants.
-3. Assignments are saved to `data/assignments.json` and displayed on the web page.
+Points from your 4 assigned teams each matchday:
 
-## Re-draw teams
+| Result | Points |
+|--------|--------|
+| Win    | 3      |
+| Draw   | 1      |
+| Loss   | 0      |
 
-```bash
-node scripts/assign-teams.mjs
-```
+## Website
 
-## View the pool
+The site has three views:
 
-Open `index.html` in a browser, or serve locally:
+- **Standings** — live pool leaderboard
+- **Matchdays** — UEFA results per matchday + pool points earned
+- **Teams** — each player's assigned teams and individual stats
+
+### Run locally
 
 ```bash
-npx serve .
+npm run serve
 ```
 
-## GitHub Pages
+Open http://localhost:3000
 
-This repo is set up for GitHub Pages — visit the repo's Settings → Pages to enable deployment from the `main` branch.
+## Auto-updates after each matchday
+
+A GitHub Action runs daily (and after match nights) to:
+
+1. Fetch latest Champions League results from [football-data.org](https://www.football-data.org/)
+2. Calculate pool standings
+3. Commit updated `data/results.json` and `data/pool-standings.json`
+
+### Setup GitHub
+
+1. Push this repo to GitHub
+2. Add a repository secret: **Settings → Secrets → Actions → New secret**
+   - Name: `FOOTBALL_DATA_API_KEY`
+   - Value: your free API key from [football-data.org/client/register](https://www.football-data.org/client/register)
+3. Enable **GitHub Pages**: Settings → Pages → Deploy from branch `main`, folder `/ (root)`
+4. The Action will run automatically; you can also trigger it manually from the Actions tab
+
+### Manual update
+
+```bash
+FOOTBALL_DATA_API_KEY=your_key npm run update
+```
+
+### Re-draw team assignments
+
+```bash
+npm run assign
+npm run update
+```
+
+## Matchday schedule (2026/27)
+
+| MD | Dates |
+|----|-------|
+| 1  | 8–10 Sep 2026 |
+| 2  | 13–14 Oct 2026 |
+| 3  | 20–21 Oct 2026 |
+| 4  | 3–4 Nov 2026 |
+| 5  | 24–25 Nov 2026 |
+| 6  | 8–9 Dec 2026 |
+| 7  | 19–20 Jan 2027 |
+| 8  | 27 Jan 2027 |

@@ -3,343 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Champions League Pool 2025/26</title>
+    <title>Champions League Pool 2026/27</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <style>
-      :root {
-        --bg: #0a0e1a;
-        --surface: #121829;
-        --surface-2: #1a2238;
-        --border: #2a3555;
-        --text: #e8ecf4;
-        --muted: #8b95ad;
-        --accent: #0066ff;
-        --gold: #f5c542;
-        --pot-1: #0066ff;
-        --pot-2: #00a86b;
-        --pot-3: #e63946;
-        --pot-4: #9b59b6;
-      }
-
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        font-family: "Inter", system-ui, sans-serif;
-        background: var(--bg);
-        color: var(--text);
-        min-height: 100vh;
-        line-height: 1.5;
-      }
-
-      .hero {
-        background: linear-gradient(135deg, #0a0e1a 0%, #121829 50%, #0d1b3e 100%);
-        border-bottom: 1px solid var(--border);
-        padding: 3rem 1.5rem 2.5rem;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .hero::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: radial-gradient(circle at 50% 0%, rgba(0, 102, 255, 0.15), transparent 60%);
-        pointer-events: none;
-      }
-
-      .hero-content {
-        position: relative;
-        max-width: 720px;
-        margin: 0 auto;
-      }
-
-      .badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        background: rgba(245, 197, 66, 0.12);
-        border: 1px solid rgba(245, 197, 66, 0.3);
-        color: var(--gold);
-        font-size: 0.75rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        padding: 0.35rem 0.85rem;
-        border-radius: 999px;
-        margin-bottom: 1rem;
-      }
-
-      h1 {
-        font-size: clamp(1.75rem, 5vw, 2.75rem);
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        margin-bottom: 0.5rem;
-      }
-
-      .subtitle {
-        color: var(--muted);
-        font-size: 1rem;
-      }
-
-      .meta {
-        margin-top: 1rem;
-        font-size: 0.85rem;
-        color: var(--muted);
-      }
-
-      main {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem 1.5rem 4rem;
-      }
-
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 1.25rem;
-      }
-
-      .card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: 16px;
-        overflow: hidden;
-        transition: transform 0.2s, box-shadow 0.2s;
-      }
-
-      .card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-      }
-
-      .card-header {
-        padding: 1.25rem 1.25rem 0.75rem;
-        border-bottom: 1px solid var(--border);
-      }
-
-      .participant {
-        font-size: 1.25rem;
-        font-weight: 700;
-      }
-
-      .team-count {
-        font-size: 0.8rem;
-        color: var(--muted);
-        margin-top: 0.15rem;
-      }
-
-      .teams {
-        padding: 0.75rem 1.25rem 1.25rem;
-        display: flex;
-        flex-direction: column;
-        gap: 0.6rem;
-      }
-
-      .team-row {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        padding: 0.6rem 0.75rem;
-        background: var(--surface-2);
-        border-radius: 10px;
-      }
-
-      .pot-badge {
-        flex-shrink: 0;
-        width: 2rem;
-        height: 2rem;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 0.7rem;
-        font-weight: 800;
-        color: #fff;
-      }
-
-      .pot-1 { background: var(--pot-1); }
-      .pot-2 { background: var(--pot-2); }
-      .pot-3 { background: var(--pot-3); }
-      .pot-4 { background: var(--pot-4); }
-
-      .team-info {
-        flex: 1;
-        min-width: 0;
-      }
-
-      .team-name {
-        font-weight: 600;
-        font-size: 0.9rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-
-      .team-country {
-        font-size: 0.75rem;
-        color: var(--muted);
-      }
-
-      .pots-section {
-        margin-top: 3rem;
-      }
-
-      .section-title {
-        font-size: 1.25rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        color: var(--muted);
-      }
-
-      .pots-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-        gap: 1rem;
-      }
-
-      .pot-card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        padding: 1rem;
-      }
-
-      .pot-card h3 {
-        font-size: 0.85rem;
-        font-weight: 700;
-        margin-bottom: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-      }
-
-      .pot-card ul {
-        list-style: none;
-        font-size: 0.85rem;
-        color: var(--muted);
-      }
-
-      .pot-card li {
-        padding: 0.2rem 0;
-      }
-
-      .loading {
-        text-align: center;
-        padding: 4rem;
-        color: var(--muted);
-      }
-
-      footer {
-        text-align: center;
-        padding: 2rem;
-        color: var(--muted);
-        font-size: 0.8rem;
-        border-top: 1px solid var(--border);
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
       <div class="hero-content">
-        <div class="badge">⚽ UEFA Champions League</div>
+        <div class="badge">⚽ UEFA Champions League Pool</div>
         <h1>Champions League Pool</h1>
-        <p class="subtitle" id="season-label">2025/26 Season — League Phase</p>
-        <p class="meta" id="generated-at"></p>
+        <p class="subtitle" id="season-label">2026/27 Season</p>
+        <div class="meta-row">
+          <span class="meta-item live"><span class="dot"></span> <span id="meta-matchday">Matchday 1</span></span>
+          <span class="meta-item" id="meta-matches">0 matches played</span>
+          <span class="meta-item" id="meta-updated">Updated —</span>
+        </div>
       </div>
     </header>
 
-    <main>
-      <div id="assignments" class="grid">
-        <p class="loading">Loading pool assignments…</p>
-      </div>
+    <div id="loading"><p class="loading">Loading pool…</p></div>
 
-      <section class="pots-section">
-        <h2 class="section-title">All Teams by Pot</h2>
-        <div id="pots" class="pots-grid"></div>
-      </section>
-    </main>
+    <div id="app" style="display: none">
+      <nav class="tabs">
+        <button class="tab active" data-tab="standings">Standings</button>
+        <button class="tab" data-tab="matchdays">Matchdays</button>
+        <button class="tab" data-tab="teams">Teams</button>
+      </nav>
+
+      <main>
+        <section id="panel-standings" class="panel active">
+          <h2 class="section-title">Pool Standings</h2>
+          <p class="scoring-note">
+            Points from your 4 assigned teams: <strong>3</strong> for a win, <strong>1</strong> for a draw, <strong>0</strong> for a loss.
+            Standings update automatically after each UEFA matchday.
+          </p>
+          <table class="standings-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th>Pts</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>GF</th>
+                <th>GA</th>
+                <th>GD</th>
+              </tr>
+            </thead>
+            <tbody id="standings-body"></tbody>
+          </table>
+        </section>
+
+        <section id="panel-matchdays" class="panel">
+          <h2 class="section-title">Matchday Results</h2>
+          <p class="scoring-note">Highlighted matches involve a pool team. Switch matchdays to see results and points earned.</p>
+          <div id="matchday-tabs" class="matchday-tabs"></div>
+          <div id="match-list" class="match-list"></div>
+          <h3 class="section-title">Pool Points This Matchday</h3>
+          <div id="md-pool-standings" class="md-pool-standings"></div>
+        </section>
+
+        <section id="panel-teams" class="panel">
+          <h2 class="section-title">Team Assignments</h2>
+          <p class="scoring-note">Each player has one team from each Champions League pot.</p>
+          <div id="teams-grid" class="grid"></div>
+        </section>
+      </main>
+    </div>
 
     <footer>
-      Each participant was randomly assigned one team from each of the four Champions League pots.
+      Auto-updated after every UEFA Champions League matchday via GitHub Actions.
     </footer>
 
-    <script>
-      const potColors = ["pot-1", "pot-2", "pot-3", "pot-4"];
-
-      async function loadPool() {
-        const [assignmentsRes, potsRes] = await Promise.all([
-          fetch("./data/assignments.json"),
-          fetch("./data/pots.json"),
-        ]);
-
-        const assignments = await assignmentsRes.json();
-        const pots = await potsRes.json();
-
-        document.getElementById("season-label").textContent =
-          `${assignments.season} Season — ${assignments.competition}`;
-
-        const date = new Date(assignments.generatedAt);
-        document.getElementById("generated-at").textContent =
-          `Drawn on ${date.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit" })}`;
-
-        const grid = document.getElementById("assignments");
-        grid.innerHTML = assignments.participants
-          .map(
-            (p) => `
-          <article class="card">
-            <div class="card-header">
-              <div class="participant">${p.participant}</div>
-              <div class="team-count">${p.teams.length} teams assigned</div>
-            </div>
-            <div class="teams">
-              ${p.teams
-                .map(
-                  (t) => `
-                <div class="team-row">
-                  <div class="pot-badge ${potColors[t.pot - 1]}">P${t.pot}</div>
-                  <div class="team-info">
-                    <div class="team-name">${t.name}</div>
-                    <div class="team-country">${t.country}</div>
-                  </div>
-                </div>
-              `
-                )
-                .join("")}
-            </div>
-          </article>
-        `
-          )
-          .join("");
-
-        const potsGrid = document.getElementById("pots");
-        potsGrid.innerHTML = pots.pots
-          .map(
-            (pot) => `
-          <div class="pot-card">
-            <h3 style="color: var(--pot-${pot.id})">${pot.name}</h3>
-            <ul>
-              ${pot.teams.map((t) => `<li>${t.name} <span style="opacity:0.6">(${t.country})</span></li>`).join("")}
-            </ul>
-          </div>
-        `
-          )
-          .join("");
-      }
-
-      loadPool().catch((err) => {
-        document.getElementById("assignments").innerHTML =
-          `<p class="loading">Could not load assignments. Run <code>node scripts/assign-teams.mjs</code> first.</p>`;
-        console.error(err);
-      });
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>
