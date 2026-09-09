@@ -196,7 +196,15 @@ function renderTeams() {
     .join("");
 }
 
-function switchTab(tab) {
+const validTabs = new Set(["standings", "matchdays", "teams"]);
+
+function tabFromHash() {
+  const tab = location.hash.replace("#", "");
+  return validTabs.has(tab) ? tab : "standings";
+}
+
+function switchTab(tab, updateHash = true) {
+  if (!validTabs.has(tab)) tab = "standings";
   state.activeTab = tab;
   document.querySelectorAll(".tab").forEach((t) => {
     t.classList.toggle("active", t.dataset.tab === tab);
@@ -204,6 +212,9 @@ function switchTab(tab) {
   document.querySelectorAll(".panel").forEach((p) => {
     p.classList.toggle("active", p.id === `panel-${tab}`);
   });
+  if (updateHash && location.hash !== `#${tab}`) {
+    history.replaceState(null, "", `#${tab}`);
+  }
 }
 
 async function init() {
@@ -217,6 +228,9 @@ async function init() {
     document.querySelectorAll(".tab").forEach((btn) => {
       btn.addEventListener("click", () => switchTab(btn.dataset.tab));
     });
+
+    switchTab(tabFromHash(), false);
+    window.addEventListener("hashchange", () => switchTab(tabFromHash(), false));
 
     document.getElementById("app").style.display = "block";
     document.getElementById("loading").style.display = "none";
