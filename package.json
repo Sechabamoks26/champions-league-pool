@@ -1,0 +1,10 @@
+{
+  "name": "champions-league-pool",
+  "version": "1.0.0",
+  "description": "UEFA Champions League pool with randomized team assignments",
+  "type": "module",
+  "scripts": {
+    "assign": "node scripts/assign-teams.mjs"
+  },
+  "private": true
+}

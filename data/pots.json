@@ -1,0 +1,66 @@
+{
+  "season": "2025/26",
+  "competition": "UEFA Champions League",
+  "pots": [
+    {
+      "id": 1,
+      "name": "Pot 1",
+      "teams": [
+        { "name": "Paris Saint-Germain", "country": "FRA" },
+        { "name": "Real Madrid", "country": "ESP" },
+        { "name": "Manchester City", "country": "ENG" },
+        { "name": "Bayern Munich", "country": "GER" },
+        { "name": "Liverpool", "country": "ENG" },
+        { "name": "Inter Milan", "country": "ITA" },
+        { "name": "Chelsea", "country": "ENG" },
+        { "name": "Borussia Dortmund", "country": "GER" },
+        { "name": "Barcelona", "country": "ESP" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pot 2",
+      "teams": [
+        { "name": "Arsenal", "country": "ENG" },
+        { "name": "Bayer Leverkusen", "country": "GER" },
+        { "name": "Atletico Madrid", "country": "ESP" },
+        { "name": "Benfica", "country": "POR" },
+        { "name": "Atalanta", "country": "ITA" },
+        { "name": "Villarreal", "country": "ESP" },
+        { "name": "Juventus", "country": "ITA" },
+        { "name": "Eintracht Frankfurt", "country": "GER" },
+        { "name": "Club Brugge", "country": "BEL" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pot 3",
+      "teams": [
+        { "name": "Tottenham", "country": "ENG" },
+        { "name": "PSV Eindhoven", "country": "NED" },
+        { "name": "Ajax", "country": "NED" },
+        { "name": "Napoli", "country": "ITA" },
+        { "name": "Sporting CP", "country": "POR" },
+        { "name": "Olympiacos", "country": "GRE" },
+        { "name": "Slavia Praha", "country": "CZE" },
+        { "name": "Bodø/Glimt", "country": "NOR" },
+        { "name": "Marseille", "country": "FRA" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pot 4",
+      "teams": [
+        { "name": "Copenhagen", "country": "DEN" },
+        { "name": "Monaco", "country": "FRA" },
+        { "name": "Galatasaray", "country": "TUR" },
+        { "name": "Union SG", "country": "BEL" },
+        { "name": "Qarabag", "country": "AZE" },
+        { "name": "Athletic Club", "country": "ESP" },
+        { "name": "Newcastle", "country": "ENG" },
+        { "name": "Pafos", "country": "CYP" },
+        { "name": "Kairat Almaty", "country": "KAZ" }
+      ]
+    }
+  ]
+}
